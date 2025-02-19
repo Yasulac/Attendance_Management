@@ -5,11 +5,11 @@
         color: #fff;
     }
     .first-section{
-        width: 1620px;
+        width: 1530px;
         justify-content: center;
         align-content: center;
         justify-self: center;
-        padding-left: 40px;
+        
  
     }
     .container-fluid{
@@ -101,6 +101,7 @@
         color: #fff;
         padding-top: 0px;
         padding-bottom: 0px;
+        padding-left: 30px;
     }
     
    
