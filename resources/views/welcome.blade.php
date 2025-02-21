@@ -29,13 +29,44 @@
       
       
     }
+    .first-section-div{
+      background-color: rgba(0, 0, 0, .5);
+      text-align: center;
+      width: 100%;
+      padding: 30px;
 
+    }
     #section1  h1{
       font-weight: 450;
-      font-size: 70px;
+      font-size: 75px;
       font-family: 'Poppins', sans;
       text-align: center;
+      padding: 15px;
+    
+      
+      
     }
+
+    #section1 p{
+      font-family: 'Poppins', sans;
+      font-size: 40px;
+      font-weight: 300;
+    }
+
+    #section1 .btn.btn-primary{
+      background-color: black;
+      border-color: #fff; 
+      font-family: 'Poppins', sans;
+    }
+
+    #section1 .btn.btn-primary:hover{
+      background-color: #fff;
+      border-color: #000; 
+      font-family: 'Poppins', sans;
+      color: #000
+    }
+   
+   
     </style>
   </head>
 
@@ -46,9 +77,22 @@
     @include('header') 
     <section>
       <div class="container-fluid" id="section1" style=" background-image:url('{{ asset('images/background.png')}}');">
-        <h1>
-          Student Attendance
-        </h1>
+        <div class="first-section-div">
+           <h1>
+            Student Attendance
+          </h1>
+
+          <p>
+            "Present Online  Anytime  Anywhere"
+          </p>
+          <div>
+            <button class="btn btn-primary">
+                Disover the School
+            </button>
+          </div>
+        </div>
+         
+      
       </div>
     </section>
     @include('footer')

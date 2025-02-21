@@ -96,7 +96,7 @@
                         GIT IN TOUCH
                 </span>
 
-                <ul class="list-group list-group-vertical">
+                <ul class="list-group list-group-vertical" style="font-family: poppins;">
                     <li class="list-group-item">Centro Rizal </li>
                     <li class="list-group-item">8400, Surigao City</li>
                     <li class="list-group-item"> Tel: 09123456789</li>
