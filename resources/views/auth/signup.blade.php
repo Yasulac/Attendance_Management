@@ -37,12 +37,48 @@
       width: 100%;
       padding: 30px;
       width: 600px;
-      height: 600px;
+      height: 640px;
       border-radius: 10px;
+      border: 1px #fff solid;
     }
     
     .first-section-div h1{
         font-family: 'Poppins', sans;
+    }
+
+    input{
+      font-family: 'Poppins', sans;
+      background-color: transparent;
+      color: #fff;
+      border: 1px white solid;
+      height: 49px;
+      padding-left: 20px;
+      width: 269px;
+    }
+
+    input::placeholder{
+      color: #fff;
+      font-family: 'Poppins', sans;
+
+    }
+
+    label{
+      font-family: 'Poppins', sans;
+
+      text-align: start;
+      letter-spacing: 2px;
+      padding-bottom: 10px;
+    }
+
+    .submit{
+      width: 150px;
+      margin-top: 20px;
+      border-radius: 30px;
+    }
+
+    .submit:hover{
+      color: #000;
+      background-color: #fff;
     }
 </style>
 
@@ -54,14 +90,38 @@
             Create new Account
          </h1>
         <p>
-           Already Registered? <a href="">Log in</a> 
+           Already Registered? <a href="login">Log in</a> 
         </p>
 
          <form action="#">
             <label for="name">
                 NAME <br>
-                <input id="name" type="text">
+                <input id="name" type="text" placeholder="Jiara Martins">
             </label>
+
+            <label for="email">
+                EMAIL <br>
+                <input id="email" type="email" placeholder="Jiaramartins@gmail.com">
+            </label>
+
+            <label for="number">
+                SCHOOL CODE <br>
+                <input id="number" type="number" placeholder="646448615">
+            </label>
+
+            <label for="password">
+                PASSWORD <br>
+                <input id="password" type="password" placeholder="*********">
+            </label>
+
+            <label for="dateofbirth">
+                DATE OF BIRTH <br>
+                <input id="dateofbirth" type="date" placeholder="*********">
+            </label>
+            <br>
+
+            <input  class="submit" type="submit" value="SIGN UP">
+
          </form>
         </div>
          

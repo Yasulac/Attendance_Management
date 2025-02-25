@@ -26,6 +26,7 @@
       justify-items: center;
       align-items: center;
       color: #fff;
+
       
       
     }

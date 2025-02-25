@@ -26,3 +26,8 @@ Route::get('/layout', function () {
 Route::get('signup', function () {
     return view('auth.signup');
 });
+
+Route::get('login', function () {
+    return view('auth.login');
+});
+
