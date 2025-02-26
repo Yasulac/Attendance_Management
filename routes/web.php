@@ -31,3 +31,6 @@ Route::get('login', function () {
     return view('auth.login');
 });
 
+Route::get('subject', function (){
+    return view('Student.subject');
+});
